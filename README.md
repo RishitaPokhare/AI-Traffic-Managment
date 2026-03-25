@@ -1,21 +1,40 @@
-# YOLOv8 Object Detection Project
+# AI-Based Traffic Management System
 
-## 📌 About
-This project uses YOLOv8 for object detection.
+## 📌 Overview
+This project implements an AI-based traffic management system using YOLOv8n for real-time vehicle detection, traffic density estimation, and signal optimization.
 
-## 📂 Files
-- app.py – Main application file
-- main.py – Core logic
-- yolov8n.pt – Pretrained YOLOv8 model
-- videos/ – Input videos
+## 🚀 Features
+- Real-time vehicle detection (YOLOv8n)
+- Vehicle counting and tracking
+- Traffic density estimation
+- Adaptive signal timing
 
-## ⚙️ Requirements
-- Python 3.x
-- Ultralytics YOLOv8
+## 🛠 Tech Stack
+- Python
 - OpenCV
+- PyTorch
+- Flask
+- HTML, CSS, JavaScript
 
-Install dependencies:
-pip install ultralytics opencv-python
+## 📊 Results
+- Accuracy: 91%
+- FPS: 25
+- Real-time traffic monitoring
 
-## ▶️ Run the Project
-python app.py
+## 📂 Project Structure
+- /model
+- /backend
+- /frontend
+- /dataset
+- /output
+
+## ▶️ How to Run
+1. Install dependencies
+2. Run detection script
+3. Start Flask server
+
+## 👥 Contributors
+- Bhagyashri Rahangdale
+- Dhanashree Dahake
+- Parika Pandharkar
+- Rishita Pokhare
